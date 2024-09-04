@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.jsのアーキテクチャ
 
-## Getting Started
+## やること
 
-First, run the development server:
+フォルダとファイルの配置を考える
+ルーティングとコンポーネントの配置を考える。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+AIのエディタ VSCodeとGitHub Copilotの連携で使用する時、
+効果的なファイルの位置は？。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+コロケーション 出来るだけ近く配置すること
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ルーティングのフォルダとファイル命名規則
+### フォルダ名
+小文字-でつなぐ
 
-## Learn More
+### ファイル名
+layout.tsx
+page.tsx
 
-To learn more about Next.js, take a look at the following resources:
+## ページコンポーネントのフォルダとファイルの命名規則
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ページコンポーネントは小さなコンポーネントの集合体。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### フォルダ名
 
-## Deploy on Vercel
+src/componentsフォルダに置く
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+100_Commonに共通のコンポーネントを置く
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+コンポーネントの配置
+左サイドバーのメニューの順番に並ぶようにフォルダの先頭に番号をつける。
+
+### ファイル名
+

@@ -1,7 +1,7 @@
 // ルートユーザーズページのコンポーネントをまとめる
-import RouteUserCard from './RouteUserCard/RouteUserCard';
-import RouteUserImage from './RouteUserImage/RouteUserImage';
-import RouteUserList from './RouteUserList/RouteUserList';
+import TopCard from './TopCard/TopCard';
+import TopImage from './TopImage/TopImage';
+import TopList from './TopList/TopList';
 
 // 名前を付けてエクスポート
-export { RouteUserCard, RouteUserImage, RouteUserList };
+export { TopCard, TopImage, TopList };
