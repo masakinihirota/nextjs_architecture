@@ -3,7 +3,9 @@
 
 const page = () => {
 	return (
-		<div className="flex items-center justify-between flex-wrap">Top page</div>
+		<div className="flex items-center justify-between flex-wrap">
+			ここはユーザープロフィールのページです。
+		</div>
 	);
 };
 
