@@ -1,10 +1,10 @@
+// ページ単位での必要コンポーネントをまとめて読み込む
 import * as RouterUser from "@/components/002_RouteUsers";
-import React from "react";
 
 const page = () => {
 	return (
-		<div>
-			About
+		<div className="flex items-center justify-between flex-wrap">
+			<div>About</div>
 			<RouterUser.RouteUserCard />
 			<RouterUser.RouteUserImage />
 			<RouterUser.RouteUserList />
