@@ -1,5 +1,5 @@
 // ページ単位での必要コンポーネントをまとめて読み込む
-import * as Top from "@/components/001_Top";
+import * as Top from "@/menu/001_Top";
 
 const page = () => {
 	return (

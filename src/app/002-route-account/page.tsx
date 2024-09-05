@@ -1,5 +1,5 @@
 // ページ単位での必要コンポーネントをまとめて読み込む
-import * as RouteAccount from "@/components/002_RouteAccount";
+import * as RouteAccount from "@/menu/002_RouteAccount";
 
 const page = () => {
 	return (

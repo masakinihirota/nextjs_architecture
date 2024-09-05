@@ -1,4 +1,4 @@
-// ルートユーザーズページのコンポーネントをまとめる
+// トップページのコンポーネントをまとめる
 import TopCard from './TopCard/TopCard';
 import TopImage from './TopImage/TopImage';
 import TopList from './TopList/TopList';

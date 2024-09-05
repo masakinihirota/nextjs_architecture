@@ -1,5 +1,5 @@
 // ページ単位での必要コンポーネントをまとめて読み込む
-import * as UserProfile from "@/components/003_UserProfile";
+import * as UserProfile from "@/menu/003_UserProfile";
 
 const page = () => {
 	return (
