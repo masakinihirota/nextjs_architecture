@@ -1,3 +1,4 @@
+// 実験
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
@@ -19,7 +20,6 @@ export default function RootLayout({
 		// ヘッダーと左サイドバーメニューを作成
 		<html lang="ja">
 			<body>
-				{/* ヘッダーメニュー */}
 				{/* ヘッダーリンクを作る home price 広告のメニューをそれぞれリンクを作る*/}
 				<header className="flex justify-between flex-wrap items-center">
 					<Link href="/">Home</Link>
@@ -35,9 +35,9 @@ export default function RootLayout({
 					{/* グループ */}
 					{/* お知らせ */}
 					{/* お問い合わせ */}
-					<Link href="/001-top">001-Top</Link>
-					<Link href="/002-route-account">002-RouteAccount</Link>
-					<Link href="/003-user-profile">003-UserProfile</Link>
+					<Link href="/route-users">RouteUsers</Link>
+					<Link href="/about">About</Link>
+					<Link href="/users">Users</Link>
 				</nav>
 				{children}
 			</body>
